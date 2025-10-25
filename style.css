@@ -1,0 +1,28 @@
+@keyframes yurish {0%
+    {
+    transform:translateX(0) ;
+    transform:rotate(180deg);
+    transform: scale(2);
+
+}
+25%  {
+    /* transform: translateY(500px); */
+    border-radius: 50%;
+}
+50% {
+    background-color: green;
+}
+100% {
+    transform: translateX(1000px);
+}
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name:yurish;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
